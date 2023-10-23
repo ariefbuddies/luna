@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://lunas.gigitdemo.my.id/en-us/sitemap.xml</loc>
+    
+      <lastmod>2023-10-21T14:26:34+07:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://lunas.gigitdemo.my.id/ja/sitemap.xml</loc>
+    
+      <lastmod>2023-10-21T12:17:42+07:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://lunas.gigitdemo.my.id/zh-cn/sitemap.xml</loc>
+    
+      <lastmod>2023-10-21T12:17:42+07:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>
