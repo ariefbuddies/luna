@@ -392,40 +392,7 @@
     </a>
 </nav>
 </div></div>
-                </main>
-	slides = {
-  var dom = html`<div style="height:${(width / 16) * 18}px; background:#333;">`;
-  var shadow = dom.shadowRoot || dom.attachShadow({ mode: 'open' });
-  var reveal = html`<div class="reveal">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/black.min.css">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css">
-  <div class="slides">
-   <section>
-   ${md`
-# Hello 👋🏼
-- Still reactive: this slide is **${width}px** wide
-- Resize your window if you like!
-- Math! ${tex`S = k_B \ln{W}`} 
-`}
-    </section>
-   <section>
-    <h1>HTML can do slides too</h1>
-<ul>
-  <li>This is a range input: <input type=range />
-</ul>
-  </section>
-   <section>And anything else you would normally do with reveal.js</section>
-  </div>
-</div>`;
-  shadow.appendChild(reveal);
-  var deck = new Reveal(reveal, {
-    embedded: true
-  });
-  deck.initialize();
-  return dom;
-}	    
-		    <footer>
+                </main><footer>
     <div
         class="com-footer flex flex-col items-center border-t py-4 px-4 text-sm leading-none text-gray-600 dark:border-darkBorder dark:text-darkTextPlaceholder md:flex-row md:justify-between"
     >
